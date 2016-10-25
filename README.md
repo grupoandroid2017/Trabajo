@@ -1,7 +1,7 @@
 #Trabajo Grupal 
 #Android Cibertec
 
-#Integrantes
-#Carlos Cortez Asto
-#Aldo Auria
-#Rafael Bolaños
+Integrantes
+Carlos Cortez Asto
+Aldo Auria
+Rafael Bolaños
