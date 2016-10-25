@@ -11,3 +11,24 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 }
+
+/*
+
+- Cuenta de Correo
+grupoandroid@outlook.com
+cibertec2017
+
+- Cuenta de Github
+usuario: grupoandroid2017
+clave: cibertec2017
+
+- Ruta del .zip
+https://github.com/grupoandroid2017/Trabajo.git
+
+- Ruta de la carpeta
+/Users/charlie/Documents/Android
+
+- Nombre de la carpeta
+Trabajo
+
+*/
