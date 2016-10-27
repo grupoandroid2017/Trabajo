@@ -4,12 +4,12 @@
         android:checkableBehavior="single">
         <item
             android:id="@+id/drawer_labels"
-            android:title="@string/verificacionTitulo"/>
+            android:title="1"/>
         <item
             android:id="@+id/drawer_fab"
-            android:title="@string/confirmaciónTitulo"/>
+            android:title="2"/>
         <item
             android:id="@+id/drawer_snackbar"
-            android:title="@string/salidaTexto"/>
+            android:title="3"/>
     </group>
 </menu>

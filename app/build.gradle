@@ -32,24 +32,3 @@ dependencies {
     compile 'com.android.support:cardview-v7:23.1.0'
     testCompile 'junit:junit:4.12'
 }
-
-/*
-
-- Cuenta de Correo
-grupoandroid@outlook.com
-cibertec2017
-
-- Cuenta de Github
-usuario: grupoandroid2017
-clave: cibertec2017
-
-- Ruta del .zip
-https://github.com/grupoandroid2017/Trabajo.git
-
-- Ruta de la carpeta
-/Users/charlie/Documents/Android
-
-- Nombre de la carpeta
-Trabajo
-
-*/
