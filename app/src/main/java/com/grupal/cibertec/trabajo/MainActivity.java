@@ -40,7 +40,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void setupViewPager(ViewPager viewPager){
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFrag(new VerificacionFragment(), "Verificación");
+        //adapter.addFrag(new VerificacionFragment(), "Verificación");
+        adapter.addFrag(new ConfirmacionFragment(), "Verificación");
         /*
         adapter.addFrag(new FABLayoutFragment(), "FAB");
         adapter.addFrag(new SnackBarFragment(), "Snackbar");
