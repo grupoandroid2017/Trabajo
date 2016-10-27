@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!-- Colores Generales. -->
+    <color name="colorAzul">#4a3ec7</color>
+    <color name="colorBlanco">#ffffff</color>
+    <color name="colorPlomoClaro">#e4d9d9</color>
+
+    <!-- Colores Splash. -->
+
+    <!-- Colores Valida Dni. -->
+
+    <!-- Colores Confirma Datos. -->
+
 </resources>
