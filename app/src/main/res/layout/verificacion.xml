@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:weightSum="1">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="291dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.23">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="14dp"
+                android:textColor="@color/colorAzul"
+                android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
+                android:paddingRight="?android:attr/listPreferredItemPaddingRight">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorAzul"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:hint="@string/verificacionDni"/>
+
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="14dp"
+                android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
+                android:paddingRight="?android:attr/listPreferredItemPaddingRight">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:hint="@string/verificacionGruVot"/>
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="14dp"
+                android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
+                android:paddingRight="?android:attr/listPreferredItemPaddingRight">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:hint="@string/verificacionDigVer"/>
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Siguiente"
+                android:layout_gravity="right"
+                android:background="@color/colorAzul"
+                android:textColor="@color/colorBlanco"
+                android:layout_marginTop="24dp" />
+            <!--
+            android:layout_marginRight="?android:attr/listPreferredItemPaddingRight"
+            -->
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

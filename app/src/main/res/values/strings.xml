@@ -1,3 +1,42 @@
 <resources>
-    <string name="app_name">Trabajo</string>
+
+    <!-- General -->
+    <string name="app_name">Onpe</string>
+    <string name="appProyecto">Onpe</string>
+    <string name="appAceptar">Aceptar</string>
+    <string name="appCancelar">Cancelar</string>
+    <string name="appCerrarSesion">Cerrar Sesión</string>
+
+    <!-- Pantalla Verificación -->
+    <string name="verificacionTitulo">Verificación</string>
+    <string name="verificacionDni">Dni</string>
+    <string name="verificacionDigVer">Digito de Verificación</string>
+    <string name="verificacionGruVot">Grupo de Votación</string>
+
+    <!-- Pantalla Confirmación -->
+    <string name="confirmaciónTitulo">Confirmacioón</string>
+    <string name="confirmacionMensaje">Verifique sus datos personales e ingrese un correo electronico y número de celular</string>
+    <string name="confirmacionDni">Dni</string>
+    <string name="confirmacionNombres">Nombres</string>
+    <string name="confirmacionApellidoPaterno">Apellido Paterno</string>
+    <string name="confirmacionApellidoMaterno">Apellido Materno</string>
+    <string name="confirmacionCorreoElectronico">Correo Electronico</string>
+    <string name="confirmacionCelular">Celular</string>
+
+    <!-- Pantalla Alerta -->
+    <string name="mensajeMensaje">¿Está seguro que desea enviar todos sus datos?</string>
+    <!--<string name="mensajeBtnAceptar">Aceptar</string>
+    <string name="mensajeBtnCancelar">Cancelar</string>-->
+
+    <!-- Pantalla Selecciona Colegio -->
+    <string name="colegioTitulo">Selecciona Colegio</string>
+
+    <!-- Pantalla Procesando Información -->
+    <string name="procesandoTexto">Procesando Información</string>
+
+    <!-- Pantalla Google Maps -->
+
+    <!-- Pantalla Salida -->
+    <string name="salidaTexto">Gracias por válidar y procesar tu información en nuestra nueva plataforma.</string>
+
 </resources>
