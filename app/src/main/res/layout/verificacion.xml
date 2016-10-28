@@ -111,38 +111,43 @@ android:weightSum="1">
                     android:textSize="23dp"
                     android:layout_weight="1"
                     android:textColor="@color/colorBlanco" />
-
                 <LinearLayout
                     android:orientation="vertical"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@color/colorAzulCajaTexto"
-                    android:layout_weight="1">
+                    android:gravity="center"
+                    android:layout_marginBottom="38dp"
 
+                    android:layout_weight="1">
                     <LinearLayout
                         android:orientation="horizontal"
-                        android:layout_width="match_parent"
+                        android:layout_width="349dp"
                         android:layout_height="wrap_content"
-
-                        >
-
+                        android:background="@color/colorAzulCajaTexto"
+                       >
                         <TextView
-                            android:text="TextView"
+                            android:text="Ingrese su DNI"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorPrueba"
+                            android:paddingTop="3dp"
+                            android:paddingBottom="3dp"
+                            android:layout_height="match_parent"
+                            android:textSize="17dp"
+                            android:gravity="center"
+
+                            android:textAlignment="center"
+
                             android:id="@+id/textView3"
                             android:layout_weight="1" />
-
                         <Button
-                            android:text="Button"
-                            android:layout_width="wrap_content"
+                            android:layout_width="42dp"
                             android:layout_height="wrap_content"
                             android:id="@+id/button3"
-                            android:layout_weight="1" />
-
+                            android:background="@mipmap/buscar"
+                            style="@style/AppTheme"
+                            android:layout_weight="0.05" />
                     </LinearLayout>
                 </LinearLayout>
-
             </LinearLayout>
             <LinearLayout
                 android:orientation="vertical"
