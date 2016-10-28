@@ -16,7 +16,7 @@
     <!-- Pantalla Confirmación -->
     <string name="confirmaciónTitulo">Confirmacioón</string>
     <string name="confirmacionMensaje">Verifique sus datos personales e ingrese un correo electronico y número de celular</string>
-    <string name="confirmacionDni">Dni</string>
+    <string name="confirmacionDni">Ingrese su DNI</string>
     <string name="confirmacionNombres">Nombres</string>
     <string name="confirmacionApellidoPaterno">Apellido Paterno</string>
     <string name="confirmacionApellidoMaterno">Apellido Materno</string>
