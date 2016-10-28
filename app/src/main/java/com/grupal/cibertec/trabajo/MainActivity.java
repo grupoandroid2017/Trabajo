@@ -7,7 +7,9 @@ import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
+import android.view.View;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -48,6 +50,10 @@ public class MainActivity extends AppCompatActivity {
         adapter.addFrag(new CoordinatorFragment(), "Coordinator Layout");
         */
         viewPager.setAdapter(adapter);
+    }
+
+    public void Semilla(View view) {
+        Log.i("a","xxxx");
     }
 
     static class ViewPagerAdapter extends FragmentPagerAdapter {

@@ -5,15 +5,7 @@ android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:gravity="center"
 android:weightSum="1">
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:gravity="center_horizontal"
-        android:layout_alignParentStart="true"
-        android:background="@color/colorAzul"
-        android:layout_weight="0.23">
+
         <!--
         <LinearLayout
             android:orientation="vertical"
@@ -91,83 +83,113 @@ android:weightSum="1">
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@color/colorAzulClaro"
-                >
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
 
-                <TextView
-                    android:text="CONSULTA \n LOCAL DE VOTACIÓN"
-                    android:textStyle="bold"
-                    android:layout_marginTop="34dp"
-                    android:layout_marginBottom="34dp"
+                android:background="@color/colorAzulOscuro">
+                <LinearLayout
+                    android:orientation="vertical"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/textView2"
-                    android:textAlignment="center"
-                    android:textSize="23dp"
-                    android:layout_weight="1"
-                    android:textColor="@color/colorBlanco" />
+                    android:layout_marginTop="38dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_weight="0">
+                    <TextView
+                        android:text="CONSULTA \n LOCAL DE VOTACIÓN"
+                        android:textStyle="bold"
+
+                        android:layout_width="match_parent"
+
+                        android:id="@+id/textView2"
+                        android:textAlignment="center"
+                        android:textSize="23dp"
+
+                        android:textColor="@color/colorBlanco"
+                        android:layout_height="65dp" />
+                </LinearLayout>
                 <LinearLayout
                     android:orientation="vertical"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:layout_marginBottom="38dp"
-
                     android:layout_weight="1">
                     <LinearLayout
                         android:orientation="horizontal"
                         android:layout_width="349dp"
                         android:layout_height="wrap_content"
-                        android:background="@color/colorAzulCajaTexto"
-                       >
+                        android:background="@color/colorAzulCajaTexto">
+
+                        <EditText
+                            android:id="@+id/textview221"
+                            android:layout_width="match_parent"
+                            android:hint="Ingrese su DNI"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorBlanco"
+                            android:background="@drawable/border"
+                            android:paddingTop="9dp"
+                            android:textSize="14dp"
+                            android:textColorHighlight="@color/colorBlanco"
+                            android:gravity="center"
+                            android:layout_height="match_parent"
+                            android:paddingBottom="9dp"
+                            android:layout_weight="1" />
+
+                        <Button
+                            android:layout_height="match_parent"
+                            android:id="@+id/button3"
+                            android:background="@mipmap/buscar"
+                            style="@style/AppTheme"
+                            android:layout_width="47dp" />
+                        <!--
                         <TextView
                             android:text="Ingrese su DNI"
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:textColor="@color/colorPrueba"
                             android:paddingTop="3dp"
                             android:paddingBottom="3dp"
                             android:layout_height="match_parent"
                             android:textSize="17dp"
                             android:gravity="center"
-
                             android:textAlignment="center"
-
+                            android:onClick="boton"
                             android:id="@+id/textView3"
                             android:layout_weight="1" />
                         <Button
-                            android:layout_width="42dp"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:id="@+id/button3"
                             android:background="@mipmap/buscar"
                             style="@style/AppTheme"
-                            android:layout_weight="0.05" />
+                            android:layout_weight="0.05"
+                            android:layout_width="54dp" />
+                        -->
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
+                android:layout_height="127dp"
                 android:background="@color/colorBlanco"
-                >
+                android:weightSum="1">
                 <TextView
                     android:text="BIENVENIDO(A) AL SERVICIO \n MÓVIL DE CONSULTAS"
                     android:textStyle="bold"
-                    android:layout_marginTop="34dp"
-                    android:layout_marginBottom="34dp"
+
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="53dp"
                     android:id="@+id/textView22"
                     android:textAlignment="center"
-                    android:layout_weight="1"
                     android:textSize="18dp"
-                    android:textColor="@color/colorAzul" />
+                    android:textColor="@color/colorAzul"
+                    android:layout_weight="0.35"
+                    android:layout_marginTop="46dp"
+                    android:layout_marginBottom="46dp"
+                    />
             </LinearLayout>
             <LinearLayout
                 android:orientation="vertical"
@@ -190,5 +212,5 @@ android:weightSum="1">
                      />
             </LinearLayout>
         </LinearLayout>
-    </ScrollView>
+
 </LinearLayout>

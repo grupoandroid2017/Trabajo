@@ -10,11 +10,15 @@
     <color name="colorBlanco">#ffffff</color>
     <color name="colorPlomoClaro">#e5dddd</color>
     <color name="colorAzulClaro">#0d2b5f</color>
+    <color name="colorAzulOscuro">#0c1937</color>
     <color name="colorAzulCajaTexto">#0e3470</color>
     <color name="window_background">#ffffff</color>
 
     <color name="colorPrueba">#6d90ce</color>
+    <color name="colorPrueba2">#3323b440</color>
 
+    <color name="colorVerde">#3311e72a</color>
+    <color name="colorRojo">#33dc5314</color>
 
     <!-- Colores Splash. -->
 
