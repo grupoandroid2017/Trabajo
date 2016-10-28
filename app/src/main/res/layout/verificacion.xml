@@ -1,95 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-android:orientation="vertical"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:gravity="center"
-android:weightSum="1">
-
-        <!--
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center_horizontal"
-            android:layout_weight="0.23">
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_alignParentBottom="true"
-                >
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorAzul">
-                    <TextView
-                        android:text="CONSULTA \n LOCAL DE VOTACIÓN"
-                        android:textStyle="bold"
-                        android:layout_marginTop="34dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/textView2"
-                        android:textAlignment="center"
-                        android:layout_weight="1"
-                        android:textColor="@color/colorBlanco"
-                        />
-                    <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@color/colorAzul">
-
-                    </LinearLayout>
-                </LinearLayout>
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorBlanco">
-                    <TextView
-                        android:text="BIENVENIDO(A) AL SERVICIO \n MÓVIL DE CONSULTAS"
-                        android:textStyle="bold"
-                        android:layout_marginTop="34dp"
-                        android:textSize="17dp"
-                        android:textColor="@color/colorAzul"
-                        android:layout_marginBottom="34dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/textView2saassvv"
-                        android:textAlignment="center"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorPlomoClaro">
-                    <TextView
-                        android:text="Jr. Washington 1984, Lima 01 \n informes@onpe.gob.pe \n (01) 417-0630"
-                        android:textStyle="bold"
-                        android:textSize="9dp"
-                        android:layout_marginTop="14dp"
-                        android:layout_marginBottom="14dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/textView2sssvv"
-                        android:textAlignment="center"/>
-                </LinearLayout>
-            </LinearLayout>
-        </LinearLayout>
-        -->
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:weightSum="1">
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="18dp"
-
                 android:background="@color/colorAzulOscuro">
                 <LinearLayout
                     android:orientation="vertical"
@@ -101,13 +25,10 @@ android:weightSum="1">
                     <TextView
                         android:text="CONSULTA \n LOCAL DE VOTACIÓN"
                         android:textStyle="bold"
-
                         android:layout_width="match_parent"
-
                         android:id="@+id/textView2"
                         android:textAlignment="center"
                         android:textSize="23dp"
-
                         android:textColor="@color/colorBlanco"
                         android:layout_height="65dp" />
                 </LinearLayout>
@@ -123,7 +44,6 @@ android:weightSum="1">
                         android:layout_width="349dp"
                         android:layout_height="wrap_content"
                         android:background="@color/colorAzulCajaTexto">
-
                         <EditText
                             android:id="@+id/textview221"
                             android:layout_width="match_parent"
@@ -138,7 +58,6 @@ android:weightSum="1">
                             android:layout_height="match_parent"
                             android:paddingBottom="9dp"
                             android:layout_weight="1" />
-
                         <Button
                             android:layout_height="match_parent"
                             android:id="@+id/button3"
@@ -179,7 +98,6 @@ android:weightSum="1">
                 <TextView
                     android:text="BIENVENIDO(A) AL SERVICIO \n MÓVIL DE CONSULTAS"
                     android:textStyle="bold"
-
                     android:layout_width="match_parent"
                     android:layout_height="53dp"
                     android:id="@+id/textView22"
@@ -188,16 +106,14 @@ android:weightSum="1">
                     android:textColor="@color/colorAzul"
                     android:layout_weight="0.35"
                     android:layout_marginTop="46dp"
-                    android:layout_marginBottom="46dp"
-                    />
+                    android:layout_marginBottom="46dp" />
             </LinearLayout>
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@color/colorPlomoClaro"
-                >
+                android:background="@color/colorPlomoClaro">
                 <TextView
                     android:text="Jr. Washington 1984, Lima 01 \n informes@onpe.gob.pe \n (01) 417-0630"
                     android:layout_marginTop="19dp"
@@ -208,9 +124,7 @@ android:weightSum="1">
                     android:textAlignment="center"
                     android:layout_weight="1"
                     android:textColor="@color/colorAzul"
-                    android:textSize="9dp"
-                     />
+                    android:textSize="9dp" />
             </LinearLayout>
         </LinearLayout>
-
 </LinearLayout>
