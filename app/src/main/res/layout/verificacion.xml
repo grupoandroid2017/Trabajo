@@ -114,68 +114,68 @@
                     android:layout_marginTop="46dp"
                     android:layout_marginBottom="46dp" />
             </LinearLayout>
+            <!--
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="127dp"
+                            android:background="@color/colorBlanco"
+                            android:weightSum="1">
+                            <TextView
+                                android:text="BIENVENIDO(A) AL SERVICIO \n MÓVIL DE CONSULTAS"
+                                android:textStyle="bold"
+                                android:layout_width="match_parent"
+                                android:layout_height="53dp"
+                                android:id="@+id/textView222222"
+                                android:textAlignment="center"
+                                android:textSize="18dp"
+                                android:textColor="@color/colorAzul"
+                                android:layout_weight="0.35"
+                                android:layout_marginTop="46dp"
+                                android:layout_marginBottom="46dp" />
+                        </LinearLayout>
 
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="127dp"
-                android:background="@color/colorBlanco"
-                android:weightSum="1">
-                <TextView
-                    android:text="BIENVENIDO(A) AL SERVICIO \n MÓVIL DE CONSULTAS"
-                    android:textStyle="bold"
-                    android:layout_width="match_parent"
-                    android:layout_height="53dp"
-                    android:id="@+id/textView222222"
-                    android:textAlignment="center"
-                    android:textSize="18dp"
-                    android:textColor="@color/colorAzul"
-                    android:layout_weight="0.35"
-                    android:layout_marginTop="46dp"
-                    android:layout_marginBottom="46dp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="127dp"
-                android:background="@color/colorBlanco"
-                android:weightSum="1">
-                <TextView
-                    android:text="BIENVENIDO(A) AL SERVICIO \n MÓVIL DE CONSULTAS"
-                    android:textStyle="bold"
-                    android:layout_width="match_parent"
-                    android:layout_height="53dp"
-                    android:id="@+id/textVie2w22"
-                    android:textAlignment="center"
-                    android:textSize="18dp"
-                    android:textColor="@color/colorAzul"
-                    android:layout_weight="0.35"
-                    android:layout_marginTop="46dp"
-                    android:layout_marginBottom="46dp" />
-            </LinearLayout>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="127dp"
+                            android:background="@color/colorBlanco"
+                            android:weightSum="1">
+                            <TextView
+                                android:text="BIENVENIDO(A) AL SERVICIO \n MÓVIL DE CONSULTAS"
+                                android:textStyle="bold"
+                                android:layout_width="match_parent"
+                                android:layout_height="53dp"
+                                android:id="@+id/textVie2w22"
+                                android:textAlignment="center"
+                                android:textSize="18dp"
+                                android:textColor="@color/colorAzul"
+                                android:layout_weight="0.35"
+                                android:layout_marginTop="46dp"
+                                android:layout_marginBottom="46dp" />
+                        </LinearLayout>
 
 
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="127dp"
-                android:background="@color/colorBlanco"
-                android:weightSum="1">
-                <TextView
-                    android:text="BIENVENIDO(A) AL SERVICIO \n MÓVIL DE CONSULTAS"
-                    android:textStyle="bold"
-                    android:layout_width="match_parent"
-                    android:layout_height="53dp"
-                    android:id="@+id/textVie2vvw22"
-                    android:textAlignment="center"
-                    android:textSize="18dp"
-                    android:textColor="@color/colorAzul"
-                    android:layout_weight="0.35"
-                    android:layout_marginTop="46dp"
-                    android:layout_marginBottom="46dp" />
-            </LinearLayout>
-
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="127dp"
+                            android:background="@color/colorBlanco"
+                            android:weightSum="1">
+                            <TextView
+                                android:text="BIENVENIDO(A) AL SERVICIO \n MÓVIL DE CONSULTAS"
+                                android:textStyle="bold"
+                                android:layout_width="match_parent"
+                                android:layout_height="53dp"
+                                android:id="@+id/textVie2vvw22"
+                                android:textAlignment="center"
+                                android:textSize="18dp"
+                                android:textColor="@color/colorAzul"
+                                android:layout_weight="0.35"
+                                android:layout_marginTop="46dp"
+                                android:layout_marginBottom="46dp" />
+                        </LinearLayout>
+                    -->
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="match_parent"
